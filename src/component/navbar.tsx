@@ -4,10 +4,10 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import React from "react";
 
-const [showNavbar, setShowNavbar] = useState(true);
-const [lastScrollY, setLastScrollY] = useState(0);
-
 const Navbar = () => {
+  const [showNavbar, setShowNavbar] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
   // Function to handle scroll event
   const handleScroll = () => {
     const currentScrollY = window.scrollY;
