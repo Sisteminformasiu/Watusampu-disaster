@@ -34,7 +34,7 @@ const LandingPage = () => {
                 &ldquo; Watusampu merupakan salah satu kelurahan yang terletak
                 di Kecamatan Palu Barat dan Ulujadi, Kota Palu, Sulawesi Tengah,
                 Indonesia. Kelurahan ini menjadi wilayah terakhir dari Kota Palu
-                sebelum memasuki Kabupaten Donggala.&ldquo;
+                sebelum memasuki Kabupaten Donggala.&rdquo;
                 <br />
                 <br />
                 Di sekitarnya, terdapat tambang pasir, batuan, dan kerikil yang
