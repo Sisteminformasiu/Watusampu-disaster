@@ -5,7 +5,7 @@ import kontributorData from "./_db/kontributorData";
 function Page() {
   return (
     <div className="pt-32 mx-12 flex flex-col items-center justify-center pb-14 font-[family-name:var(--font-geist-sans)]">
-      <h1 className="text-center font-bold text-[40px] text-[#1A4D2E]">
+      <h1 className="text-center font-bold text-[40px] text-black">
         Kontributor
       </h1>
       <div className="pt-10 flex justify-center">
