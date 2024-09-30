@@ -12,7 +12,7 @@ function FooterSection() {
           <p className="font-semibold pb-3">Desa Watusampu</p>
           <p>Kecamatan Ulujadi, Kota Palu, Sulawesi Tengah</p>
         </div>
-        <div className="w-full md:w-[45%] mb-4 md:mb-0">
+        <div id="kontak" className="w-full md:w-[45%] mb-4 md:mb-0">
           <p className="font-semibold pb-3">Kontak</p>
           <div className="flex gap-2 pb-1">
             <BsTelephone className="text-xl" />
@@ -33,8 +33,12 @@ function FooterSection() {
             <a className="hover:text-blue-500 underline">Halaman Kontributor</a>
           </Link>
         </div>
-        <div className="pt-4">
-          {/* <Image src={Circlefooter} alt="Circle footer" /> */}
+        <div className="w-full md:w-[45%] mb-4 md:mb-0 flex gap-x-4">
+          <div className="w-7 h-7 bg-orange-400 rounded-full"></div>
+          <div className="w-7 h-7 bg-orange-400 rounded-full"></div>
+          <div className="w-7 h-7 bg-orange-400 rounded-full"></div>
+          <div className="w-7 h-7 bg-orange-400 rounded-full"></div>
+          <div className="w-7 h-7 bg-orange-400 rounded-full"></div>
         </div>
       </div>
       <hr />

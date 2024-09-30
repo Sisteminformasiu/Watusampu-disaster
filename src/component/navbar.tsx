@@ -38,19 +38,19 @@ const Navbar = () => {
         } bg-slate-900 flex justify-center gap-x-12 items-center text-white`}
       >
         <Link href="/">
-          <li>Home</li>
+          <li className="hover:text-orange-400">Home</li>
         </Link>
         <Link href="peta-watusampu">
-          <li>Peta Watusampu</li>
+          <li className="hover:text-orange-400">Peta Watusampu</li>
         </Link>
         <Link href="#penyebab">
-          <li>Penyebab</li>
+          <li className="hover:text-orange-400">Penyebab</li>
         </Link>
         <Link href="#">
-          <li>Dampak</li>
+          <li className="hover:text-orange-400">Dampak</li>
         </Link>
-        <Link href="#">
-          <li>Kontak</li>
+        <Link href="#kontak">
+          <li className="hover:text-orange-400">Kontak</li>
         </Link>
       </ul>
     </div>
