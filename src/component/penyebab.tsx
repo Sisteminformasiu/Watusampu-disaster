@@ -2,7 +2,10 @@ import React from "react";
 
 const Penyebab = () => {
   return (
-    <div className="flex items-center justify-center pb-14 font-[family-name:var(--font-geist-sans)]">
+    <div
+      id="penyebab"
+      className="flex items-center justify-center pb-14 font-[family-name:var(--font-geist-sans)]"
+    >
       <main className="flex flex-col row-start-2 items-center sm:items-start">
         <h1 className="text-3xl font-bold text-start text-black mb-2">
           Penyebab Banjir di Watusampu ?

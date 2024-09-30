@@ -14,7 +14,7 @@ function FooterSection() {
           <p>Kecamatan Ulujadi, Kota Palu, Sulawesi Tengah</p>
         </div>
         <div className="w-full md:w-[45%] mb-4 md:mb-0">
-          <p className="font-semibold pb-3">Tentang</p>
+          <p className="font-semibold pb-3">Kontak</p>
           <div className="flex gap-2 pb-1">
             <BsTelephone className="text-xl" />
             <p>+628134xxxxx</p>
