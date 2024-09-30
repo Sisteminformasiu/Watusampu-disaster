@@ -9,34 +9,31 @@ const Navbar = () => {
   const [lastScrollY, setLastScrollY] = useState(0);
 
   // Function to handle scroll event
-  const handleScroll = () => {
-    const currentScrollY = window.scrollY;
-
-    if (currentScrollY > lastScrollY) {
-      // If scroll down, hide navbar
-      setShowNavbar(false);
-    } else {
-      // If scroll up, show navbar
-      setShowNavbar(true);
+  const controlNavbar = () => {
+    if (typeof window !== "undefined") {
+      if (window.scrollY > lastScrollY) {
+        setShowNavbar(false);
+      } else {
+        setShowNavbar(true);
+      }
+      setLastScrollY(window.scrollY);
     }
-
-    setLastScrollY(currentScrollY);
   };
 
   useEffect(() => {
-    // Add scroll event listener
-    window.addEventListener("scroll", handleScroll);
+    // Add scroll event listener on mount
+    window.addEventListener("scroll", controlNavbar);
 
+    // Remove event listener on cleanup
     return () => {
-      // Remove scroll event listener on cleanup
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("scroll", controlNavbar);
     };
-  }, []);
+  }, [controlNavbar]);
 
   return (
     <div className="">
       <ul
-        className={`fixed top-0 w-full z-50 transition-transform duration-300 ${
+        className={`fixed top-0 w-full h-14 z-50 transition-transform duration-300 ${
           showNavbar ? "translate-y-0" : "-translate-y-full"
         } bg-slate-900 flex justify-center gap-x-12 items-center text-white`}
       >
