@@ -11,13 +11,13 @@ const LandingPage = () => {
               backgroundImage:
                 "url(https://www.celebesta.com/wp-content/uploads/2024/06/IMG-20240630-WA0006.jpg)",
             }}
-            className="w-[1000px] bg-black h-96  flex items-end p-12 rounded-md"
+            className="w-full sm:w-[1000px] bg-black h-96  flex items-end p-6 sm:p-12 rounded-md mt-12 sm:mt-0"
           >
-            <div className="w-96 h-40 bg-white flex flex-col p-5 gap-y-2 rounded-sm">
+            <div className="w-full max-w-[400px] h-40 bg-white flex flex-col p-5 gap-y-2 rounded-sm">
               <p className="w-[70px] rounded-sm bg-slate-800 font-medium text-white text-center">
                 Disaster
               </p>
-              <h1 className="text-3xl font-bold text-start text-black">
+              <h1 className="text-2xl sm:text-3xl font-bold text-start text-black">
                 Bencana Banjir Watusampu 2024
               </h1>
               <p className="font-semibold text-sm text-start text-slate-600">
@@ -26,11 +26,11 @@ const LandingPage = () => {
             </div>
           </div>
           <div className="mt-10">
-            <h1 className="text-3xl font-bold text-start text-black mb-2">
+            <h1 className="text-2xl sm:text-3xl font-bold text-start text-black mb-2">
               Daerah Watusampu ?
             </h1>
-            <div className="flex justify-between items-center">
-              <p className="w-[450px] text-lg font-medium text-slate-700 text-justify">
+            <div className="flex flex-col sm:flex-row justify-between items-center">
+              <p className="w-full sm:w-[450px] text-lg font-medium text-slate-700 text-justify">
                 &quot; Watusampu merupakan salah satu kelurahan yang terletak di
                 Kecamatan Palu Barat dan Ulujadi, Kota Palu, Sulawesi Tengah,
                 Indonesia. Kelurahan ini menjadi wilayah terakhir dari Kota Palu

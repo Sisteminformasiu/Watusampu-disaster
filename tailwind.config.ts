@@ -1,15 +1,19 @@
-import type { Config } from "tailwindcss";
+// tailwind.config.js
+import { nextui } from "@nextui-org/react";
 
-const config: Config = {
-  content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
+/** @type {import('tailwindcss').Config} */
+const config = {
+  content: [
+    "./src/**/*.{js,ts,jsx,tsx,mdx}", // Path untuk komponen dan halaman dalam proyek Anda
+    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}", // Path untuk Next UI
+  ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+      // Anda bisa menambahkan penyesuaian tema di sini jika diperlukan
     },
   },
-  plugins: [],
+  darkMode: "class", // Aktifkan mode gelap dengan kelas
+  plugins: [nextui()], // Tambahkan plugin Next UI
 };
+
 export default config;
