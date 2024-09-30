@@ -3,7 +3,6 @@ import { BsTelephone } from "react-icons/bs";
 import { MdOutlineEmail } from "react-icons/md";
 import { TbMapShare } from "react-icons/tb";
 import Link from "next/link";
-import Image from "next/image";
 
 function FooterSection() {
   return (

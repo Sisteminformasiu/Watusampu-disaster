@@ -1,9 +1,8 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import React from "react";
-
-import { useState, useEffect } from "react";
 
 const [showNavbar, setShowNavbar] = useState(true);
 const [lastScrollY, setLastScrollY] = useState(0);
@@ -50,7 +49,7 @@ const Navbar = () => {
         <Link href="#penyebab">
           <li>Penyebab</li>
         </Link>
-        <Link href="#dampak">
+        <Link href="#">
           <li>Dampak</li>
         </Link>
         <Link href="#">
