@@ -31,10 +31,10 @@ const LandingPage = () => {
             </h1>
             <div className="flex justify-between items-center">
               <p className="w-[450px] text-lg font-medium text-slate-700 text-justify">
-                "Watusampu merupakan salah satu kelurahan yang terletak di
-                Kecamatan Palu Barat dan Ulujadi, Kota Palu, Sulawesi Tengah,
+                &ldquo; Watusampu merupakan salah satu kelurahan yang terletak
+                di Kecamatan Palu Barat dan Ulujadi, Kota Palu, Sulawesi Tengah,
                 Indonesia. Kelurahan ini menjadi wilayah terakhir dari Kota Palu
-                sebelum memasuki Kabupaten Donggala."
+                sebelum memasuki Kabupaten Donggala.&ldquo;
                 <br />
                 <br />
                 Di sekitarnya, terdapat tambang pasir, batuan, dan kerikil yang
