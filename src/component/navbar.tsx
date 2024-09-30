@@ -31,7 +31,7 @@ const Navbar = () => {
       // Remove scroll event listener on cleanup
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [lastScrollY]);
+  }, []);
 
   return (
     <div className="">
